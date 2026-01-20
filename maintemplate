@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI STRONG WiFi CONNECTORS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* Reset & Body */
+body { margin: 0; font-family: 'Roboto', sans-serif; background: #020617; color: #fff; }
+
+/* Header / Hero */
+header {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #0ea5e9, #22c55e);
+  animation: fadeIn 1.5s ease;
+}
+header h1 { font-size: 2.8rem; margin: 0; }
+header p { font-size: 1.2rem; margin: 10px 0; }
+header .btn {
+  display: inline-block;
+  background: #22c55e;
+  color: black;
+  padding: 16px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+header .btn:hover { transform: scale(1.05); }
+
+/* Sections */
+section { padding: 30px 20px; max-width: 800px; margin: auto; }
+.card {
+  background: #1e293b;
+  border-radius: 14px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease;
+}
+.card:hover { transform: translateY(-5px); }
+h2 { margin-top: 0; color: #0ea5e9; }
+.price { color: #22c55e; font-weight: bold; }
+
+/* Footer */
+footer { text-align:center; padding:20px; font-size:0.9rem; color:#888; }
+
+/* Animations */
+@keyframes fadeIn { from {opacity:0;} to {opacity:1;} }
+
+/* Responsive */
+@media(max-width: 600px){
+  header h1 { font-size: 2rem; }
+  header p { font-size: 1rem; }
+  .card { padding: 20px; }
+  header .btn { padding: 12px 20px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>AI STRONG WiFi CONNECTORS</h1>
+  <p>Fast • Affordable • Reliable Street Wi-Fi</p>
+  <a class="btn" href="#packages">CONNECT NOW</a>
+</header>
+
+<section>
+  <div class="card">
+    <h2>How It Works</h2>
+    <ol>
+      <li>Connect to our Wi-Fi</li>
+      <li>Open this page</li>
+      <li>Pay or Enter Voucher</li>
+      <li>Enjoy Internet</li>
+    </ol>
+  </div>
+</section>
+
+<section id="packages">
+  <div class="card">
+    <h2>Wi-Fi Packages</h2>
+    <p>30 Minutes — <span class="price">KES 10</span></p>
+    <p>1 Hour — <span class="price">KES 20</span></p>
+    <p>Daily — <span class="price">KES 50</span></p>
+  </div>
+</section>
+
+<section>
+  <div class="card">
+    <h2>Need Help?</h2>
+    <a class="btn" href="https://wa.me/254700000000">WhatsApp Support</a>
+  </div>
+</section>
+
+<footer>
+  Powered by AI STRONG WiFi CONNECTORS
+</footer>
+
+</body>
+</html>
